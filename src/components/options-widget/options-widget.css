@@ -1,0 +1,55 @@
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option h2 {
+  margin-bottom: 10px;
+}
+
+.option img {
+  margin-right: 20px;
+}
+
+.option button {
+  padding: 15px 30px;
+  background: linear-gradient(180deg, #64DD17 0%, #23B838 100%);
+  box-shadow: 0 5px 15px rgba(35, 184, 56, 0.33), inset 0 -3px 0 rgba(18, 150, 27, 0.5), inset 0 3px 0 #96EE23;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 900px){
+  .option > img {
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+  }
+  .option button {
+    padding: 10px 20px;
+  }
+  .option h2 {
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .option {
+    margin-bottom: 20px;
+  }
+
+  .option button {
+    padding: 8px 15px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .option > img {
+    width: 60px;
+    height: 60px;
+  }
+}

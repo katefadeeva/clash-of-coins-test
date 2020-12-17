@@ -1,0 +1,25 @@
+.token {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.token img {
+  margin-bottom: 10px;
+}
+
+.token button {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 3px 8px;
+  background: #EC1D24;
+  box-shadow: 0 4px 12px rgba(236, 29, 36, 0.25);
+}
+
+@media screen and (max-width: 574px){
+  .token img {
+    width: 60%;
+  }
+}
