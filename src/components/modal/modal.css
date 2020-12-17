@@ -76,3 +76,9 @@
     right: 15px;
   }
 }
+
+@media screen and (max-width: 320px){
+  .modal h1 {
+    margin: 15px 0 15px 0;
+  }
+}

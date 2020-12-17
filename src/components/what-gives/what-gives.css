@@ -38,3 +38,9 @@
     padding: 20px 15px 30px 15px;
   }
 }
+
+@media screen and (max-width: 320px){
+  .bottom-section {
+    padding: 15px 10px 25px 10px;
+  }
+}
