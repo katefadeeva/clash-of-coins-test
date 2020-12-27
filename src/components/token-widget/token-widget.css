@@ -18,6 +18,11 @@
   box-shadow: 0 4px 12px rgba(236, 29, 36, 0.25);
 }
 
+.token button:hover {
+  background: #930505;
+  box-shadow: 0 4px 12px rgba(236, 29, 36, 0.25);
+}
+
 @media screen and (max-width: 574px){
   .token img {
     width: 60%;

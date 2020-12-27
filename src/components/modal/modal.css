@@ -9,10 +9,6 @@
   top: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  transition: 0.3s visibility;
-  -webkit-transition: 0.3s visibility;
-  -moz-transition: 0.3s visibility;
-  -o-transition: 0.3s visibility;
 }
 
 .modal h1 {
@@ -26,6 +22,7 @@
   display: inline-block;
   right: 40px;
   top: 8%;
+  cursor: pointer;
 }
 
 .cross:before,
@@ -40,14 +37,12 @@
 
  }
 .cross:before {
-  transition: all .3s ease-out;
   transform: rotate(-45deg);
   top: 5px;
   left: 0;
 }
 
 .cross:after {
-  transition: all .3s ease-out;
   transform: rotate(45deg);
   top: 5px;
    bottom: 0;
